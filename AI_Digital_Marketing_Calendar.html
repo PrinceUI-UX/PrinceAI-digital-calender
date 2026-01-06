@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PrinceUI/UX AI Digital Marketing 2-Month Calendar</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 20px; }
+  h1 { text-align: center; color: #2c3e50; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+  th, td { border: 1px solid #ccc; padding: 10px; text-align: center; vertical-align: middle; }
+  th { background: #2980b9; color: #fff; }
+  td.week1 { background: #d6eaf8; }
+  td.week2 { background: #e8daef; }
+  td.week3 { background: #d5f5e3; }
+  td.week4 { background: #fcf3cf; }
+  td.week5 { background: #fadbd8; }
+  td.week6 { background: #d6eaf8; }
+  td.week7 { background: #e8daef; }
+  td.week8 { background: #d5f5e3; }
+  a { text-decoration: none; color: #2c3e50; font-weight: bold; }
+  input[type=checkbox] { transform: scale(1.2); }
+  td[title] { position: relative; cursor: help; }
+  td[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 10;
+    font-size: 12px;
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    table, thead, tbody, th, td, tr { display: block; }
+    th { display: none; }
+    td { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; padding: 10px; }
+    td:before { content: attr(data-label); font-weight: bold; margin-right: 10px; }
+    tr { margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
+    td[title]:hover::after { top: auto; bottom: 100%; left: 0; transform: none; }
+  }
+</style>
+</head>
+<body>
+
+<h1>PrinceUI/UX AI Digital Marketing 2-Month Interactive Calendar</h1>
+<table>
+<tr>
+  <th>Week/Day</th>
+  <th>Mon</th>
+  <th>Tue</th>
+  <th>Wed</th>
+  <th>Thu</th>
+  <th>Fri</th>
+  <th>Sat</th>
+  <th>Sun</th>
+</tr>
+
+<!-- Week 1 -->
+<tr>
+  <td data-label="Week/Day">Week 1 – Foundations</td>
+  <td data-label="Mon" class="week1" title="Start by reviewing all marketing channels your business could use."><input type="checkbox"> <a href="https://academy.hubspot.com/" target="_blank">Marketing Channels</a></td>
+  <td data-label="Tue" class="week1" title="Map a sample customer journey for your chosen niche."><input type="checkbox"> <a href="https://learndigital.withgoogle.com/digitalgarage" target="_blank">Customer Journey</a></td>
+  <td data-label="Wed" class="week1" title="Understand CTR, CPC, ROI; note examples."><input type="checkbox"> Learn Metrics</td>
+  <td data-label="Thu" class="week1" title="Read 2-3 case studies and summarize key success points."><input type="checkbox"> Case Studies</td>
+  <td data-label="Fri" class="week1" title="Select your niche business to focus on for exercises."><input type="checkbox"> Pick a Niche</td>
+  <td data-label="Sat" class="week1" title="Draft a basic strategy mapping channels and content."><input type="checkbox"> Mock Strategy</td>
+  <td data-label="Sun" class="week1" title="Review all week 1 notes and refine ideas."><input type="checkbox"> Review Notes</td>
+</tr>
+
+<!-- Week 2 -->
+<tr>
+  <td data-label="Week/Day">Week 2 – Content AI</td>
+  <td data-label="Mon" class="week2" title="Practice prompt writing to generate social posts."><input type="checkbox"> <a href="https://chat.openai.com/" target="_blank">ChatGPT</a></td>
+  <td data-label="Tue" class="week2" title="Use Jasper to rewrite posts in brand voice."><input type="checkbox"> <a href="https://www.jasper.ai/" target="_blank">Jasper AI</a></td>
+  <td data-label="Wed" class="week2" title="Generate 5 creative social media posts."><input type="checkbox"> <a href="https://www.copy.ai/" target="_blank">Copy.ai</a></td>
+  <td data-label="Thu" class="week2" title="Write a 300-word blog using AI."><input type="checkbox"> <a href="https://writesonic.com/" target="_blank">Writesonic</a></td>
+  <td data-label="Fri" class="week2" title="Select the best content pieces to schedule."><input type="checkbox"> Pick Posts</td>
+  <td data-label="Sat" class="week2" title="Plan a weekly content posting schedule."><input type="checkbox"> Plan Schedule</td>
+  <td data-label="Sun" class="week2" title="Refine and polish content for quality."><input type="checkbox"> Polish Content</td>
+</tr>
+
+<!-- Week 3 -->
+<tr>
+  <td data-label="Week/Day">Week 3 – SEO & Optimization</td>
+  <td data-label="Mon" class="week3" title="Research 10 target keywords for your niche."><input type="checkbox"> <a href="https://ahrefs.com/" target="_blank">Keyword Research</a></td>
+  <td data-label="Tue" class="week3" title="Optimize blog post content for 1 main keyword."><input type="checkbox"> <a href="https://surferseo.com/" target="_blank">Optimize Blog</a></td>
+  <td data-label="Wed" class="week3" title="Check AI content score and add suggestions."><input type="checkbox"> <a href="https://www.frase.io/" target="_blank">Frase Content Score</a></td>
+  <td data-label="Thu" class="week3" title="Analyze top 3 competitors for insights."><input type="checkbox"> Competitor Analysis</td>
+  <td data-label="Fri" class="week3" title="Add meta description and proper headings."><input type="checkbox"> Meta & Headings</td>
+  <td data-label="Sat" class="week3" title="Link to other pages for internal SEO."><input type="checkbox"> Internal Linking</td>
+  <td data-label="Sun" class="week3" title="Review content readability and SEO score."><input type="checkbox"> Review SEO</td>
+</tr>
+
+<!-- Week 4 -->
+<tr>
+  <td data-label="Week/Day">Week 4 – Social Media AI</td>
+  <td data-label="Mon" class="week4" title="Schedule posts for your chosen platforms."><input type="checkbox"> <a href="https://buffer.com/" target="_blank">Buffer</a></td>
+  <td data-label="Tue" class="week4" title="Use Hootsuite for multi-platform management."><input type="checkbox"> <a href="https://hootsuite.com/" target="_blank">Hootsuite</a></td>
+  <td data-label="Wed" class="week4" title="Repurpose blog content into social posts."><input type="checkbox"> <a href="https://www.lately.ai/" target="_blank">Lately AI</a></td>
+  <td data-label="Thu" class="week4" title="Create visual posting plan and graphics."><input type="checkbox"> <a href="https://pallyy.com/" target="_blank">Pallyy</a></td>
+  <td data-label="Fri" class="week4" title="Analyze expected engagement metrics."><input type="checkbox"> Analyze Engagement</td>
+  <td data-label="Sat" class="week4" title="Review scheduled posts and adjust timing."><input type="checkbox"> Post Review</td>
+  <td data-label="Sun" class="week4" title="Reflect on results and plan next steps."><input type="checkbox"> Reflect & Plan</td>
+</tr>
+
+<!-- Week 5 -->
+<tr>
+  <td data-label="Week/Day">Week 5 – Paid Ads</td>
+  <td data-label="Mon" class="week5" title="Create Google Ads mock campaign."><input type="checkbox"> <a href="https://ads.google.com/" target="_blank">Google Ads</a></td>
+  <td data-label="Tue" class="week5" title="Create Facebook/Instagram mock ad."><input type="checkbox"> <a href="https://www.facebook.com/business/ads" target="_blank">Facebook Ads</a></td>
+  <td data-label="Wed" class="week5" title="Generate ad creatives and copy using AI."><input type="checkbox"> <a href="https://adcreative.ai/" target="_blank">AdCreative.ai</a></td>
+  <td data-label="Thu" class="week5" title="Define audience demographics, interests, and location."><input type="checkbox"> Audience Targeting</td>
+  <td data-label="Fri" class="week5" title="Launch a small $5-$10 test ad campaign."><input type="checkbox"> Launch Test Campaign</td>
+  <td data-label="Sat" class="week5" title="Monitor CTR and engagement metrics."><input type="checkbox"> Monitor Results</td>
+  <td data-label="Sun" class="week5" title="Optimize ads based on performance."><input type="checkbox"> Optimize Ads</td>
+</tr>
+
+<!-- Week 6 -->
+<tr>
+  <td data-label="Week/Day">Week 6 – Email Marketing</td>
+  <td data-label="Mon" class="week6" title="Set up email list and welcome emails."><input type="checkbox"> <a href="https://mailchimp.com/" target="_blank">Mailchimp</a></td>
+  <td data-label="Tue" class="week6" title="Segment audience based on behavior."><input type="checkbox"> <a href="https://www.klaviyo.com/" target="_blank">Klaviyo</a></td>
+  <td data-label="Wed" class="week6" title="Write a 3-email sequence for welcome/offer/reminder."><input type="checkbox"> Write 3-Email Sequence</td>
+  <td data-label="Thu" class="week6" title="Test multiple subject lines for CTR."><input type="checkbox"> Test Subject Lines</td>
+  <td data-label="Fri" class="week6" title="Set up automation flow."><input type="checkbox"> Automation Setup</td>
+  <td data-label="Sat" class="week6" title="Plan retargeting sequence with ads and emails."><input type="checkbox"> Retargeting Plan</td>
+  <td data-label="Sun" class="week6" title="Review and improve email content."><input type="checkbox"> Review Emails</td>
+</tr>
+
+<!-- Week 7 -->
+<tr>
+  <td data-label="Week/Day">Week 7 – Analytics & Insights</td>
+  <td data-label="Mon" class="week7" title="Connect website and start tracking in GA4."><input type="checkbox"> <a href="https://analytics.google.com/" target="_blank">GA4 Setup</a></td>
+  <td data-label="Tue" class="week7" title="Set heatmaps and session tracking."><input type="checkbox"> <a href="https://www.hotjar.com/" target="_blank">Hotjar Heatmaps</a></td>
+  <td data-label="Wed" class="week7" title="Analyze traffic, bounce rate, CTR, conversions."><input type="checkbox"> Analyze Traffic</td>
+  <td data-label="Thu" class="week7" title="Plan A/B testing for emails or ads."><input type="checkbox"> Plan A/B Test</td>
+  <td data-label="Fri" class="week7" title="Generate AI insights from analytics."><input type="checkbox"> Generate AI Insights</td>
+  <td data-label="Sat" class="week7" title="Adjust campaigns based on results."><input type="checkbox"> Adjust Campaigns</td>
+  <td data-label="Sun" class="week7" title="Reflect and create dashboard."><input type="checkbox"> Reflect & Dashboard</td>
+</tr>
+
+<!-- Week 8 -->
+<tr>
+  <td data-label="Week/Day">Week 8 – Automation & Full Campaign</td>
+  <td data-label="Mon" class="week8" title="Connect apps to automate workflows."><input type="checkbox"> <a href="https://zapier.com/" target="_blank">Zapier</a></td>
+  <td data-label="Tue" class="week8" title="Set up social posting automation."><input type="checkbox"> <a href="https://www.make.com/" target="_blank">Make/Integromat</a></td>
+  <td data-label="Wed" class="week8" title="Design visuals for campaign."><input type="checkbox"> <a href="https://www.canva.com/" target="_blank">Canva AI</a></td>
+  <td data-label="Thu" class="week8" title="Create short promo video."><input type="checkbox"> <a href="https://runwayml.com/" target="_blank">Runway Video</a></td>
+  <td data-label="Fri" class="week8" title="Run full mini-campaign combining all channels."><input type="checkbox"> Full Mini Campaign</td>
+  <td data-label="Sat" class="week8" title="Analyze campaign performance."><input type="checkbox"> Analyze Campaign</td>
+  <td data-label="Sun" class="week8" title="Reflect on results and optimize next cycle."><input type="checkbox"> Reflect & Optimize</td>
+</tr>
+
+</table>
+<p style="text-align:center; font-size:0.9em; color:#555;">Hover over each task to see tips. Click links to open tools/resources directly. Fully mobile-friendly!</p>
+
+</body>
+</html>
